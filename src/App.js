@@ -11,7 +11,7 @@ import NovaPagina from './PaginaFormas.js';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nova-pagina/:forma" element={<NovaPagina />}/>
