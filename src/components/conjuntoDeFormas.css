@@ -1,0 +1,8 @@
+.conjuntoDeFormas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-inline: 4%;
+    margin-top: 3%;
+}

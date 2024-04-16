@@ -1,0 +1,26 @@
+.banner {
+    background-image: url('../img/banner.png');
+    background-position: center;
+    background-repeat:space;
+    background-size: cover;
+    width: 100vw;
+    height: 350px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.bg__text {
+    background-color: rgba(141, 145, 199, 70%);
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+h1{
+    color: #F2F7F2;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #023618;
+}
