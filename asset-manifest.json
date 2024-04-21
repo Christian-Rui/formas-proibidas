@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/formas-proibidas/static/css/main.d6ae811e.css",
-    "main.js": "/formas-proibidas/static/js/main.0cf8c418.js",
+    "main.css": "/formas-proibidas/static/css/main.ea4e4d6d.css",
+    "main.js": "/formas-proibidas/static/js/main.a3732eb8.js",
     "static/js/453.bb87ca41.chunk.js": "/formas-proibidas/static/js/453.bb87ca41.chunk.js",
+    "static/media/bgCalculo.png": "/formas-proibidas/static/media/bgCalculo.3c62df510961b7b600c1.png",
     "static/media/banner.png": "/formas-proibidas/static/media/banner.f34cb2c0af94e087f8c7.png",
     "static/media/LogoCompleta.svg": "/formas-proibidas/static/media/LogoCompleta.d87f03227ff7749719a2cd19248dc46f.svg",
     "static/media/logo.svg": "/formas-proibidas/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Poligono.svg": "/formas-proibidas/static/media/Poligono.cbbdc8f76d7946d302844fcac38db437.svg",
     "index.html": "/formas-proibidas/index.html",
+    "static/media/Romboedro.svg": "/formas-proibidas/static/media/Romboedro.44e38b7854c46fb5e733b5c8f0bc2873.svg",
+    "static/media/Cuboide.svg": "/formas-proibidas/static/media/Cuboide.ff6e0e87a7253869de158d2ff5f0c261.svg",
     "static/media/Cubo.svg": "/formas-proibidas/static/media/Cubo.9372ddca39043c6d4ce891d21cd60f5d.svg",
-    "main.d6ae811e.css.map": "/formas-proibidas/static/css/main.d6ae811e.css.map",
-    "main.0cf8c418.js.map": "/formas-proibidas/static/js/main.0cf8c418.js.map",
+    "static/media/Trapezio.svg": "/formas-proibidas/static/media/Trapezio.98cb08ddf7530901b6e02237c3719c40.svg",
+    "static/media/Quadrado.svg": "/formas-proibidas/static/media/Quadrado.172ba4decddaf3568320aa0fe4ae4b6c.svg",
+    "static/media/Rectangulo.svg": "/formas-proibidas/static/media/Rectangulo.6292d64ffc754afb5a7830bb29d8013a.svg",
+    "main.ea4e4d6d.css.map": "/formas-proibidas/static/css/main.ea4e4d6d.css.map",
+    "main.a3732eb8.js.map": "/formas-proibidas/static/js/main.a3732eb8.js.map",
     "453.bb87ca41.chunk.js.map": "/formas-proibidas/static/js/453.bb87ca41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6ae811e.css",
-    "static/js/main.0cf8c418.js"
+    "static/css/main.ea4e4d6d.css",
+    "static/js/main.a3732eb8.js"
   ]
 }
