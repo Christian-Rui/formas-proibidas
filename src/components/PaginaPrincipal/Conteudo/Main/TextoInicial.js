@@ -2,6 +2,7 @@ import './textoInicial.css'
 export default function TextoInicial() {
     return (
         <div className='textoInicial'>
+            <div className='container'>
             <p className='texto'>Bem-vindos à nossa incrível Plataforma de Cálculo de Áreas Geométricas! Aqui, você não precisa de uma bússola mágica ou um mapa do tesouro para explorar terras desconhecidas. Nossas formas geométricas são o seu guia, e os números são suas coordenadas!<br></br><br></br>
                 Missão: Guiar vocês, destemidos aventureiros, na escolha da forma perfeita para explorar. Queremos que vocês se sintam como os Indiana Jones da geometria, desvendando segredos matemáticos e conquistando áreas com bravura.
                 <br></br><br></br>
@@ -18,6 +19,8 @@ export default function TextoInicial() {
                     </li>
                 </ul>
             </p>
+            </div>
+            
         </div>
     );
 }

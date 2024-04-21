@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
-import Home from './Home.js';
-import NovaPagina from './PaginaFormas.js';
+import Home from './components/PaginaPrincipal/Home.js';
+import PaginaCalculo from './components/PaginaCalculo/PaginaFormas.js';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/nova-pagina/:forma" element={<NovaPagina />}/>
+        <Route path="/pagina-calculo/:forma" element={<PaginaCalculo />}/>
       </Routes>
     </Router>
     // exact 

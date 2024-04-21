@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Formas(props) {
     return (
         <Link className='formas' to={props.site}>
-            <div className='teste'>
+            <div className='imagem'>
                 <img src={props.img} />
             </div>            
             <div className='info'>

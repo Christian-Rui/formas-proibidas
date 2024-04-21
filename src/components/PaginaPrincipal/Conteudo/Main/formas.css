@@ -12,16 +12,13 @@
 }
 
 .formas>img {
-    width: 100%;
-    
+    width: 100%;  
 }
 
-.teste {
+.imagem {
     display: flex;
-    height: 300px;
+    height: 350px;
     align-items: center;
-    /* display: flex;
-    align-items: center; */
 }
 
 .info {
@@ -37,14 +34,12 @@
     text-wrap: wrap;
     padding-inline: 3%;
     color: black;
-    /*margin: 0 10%; */
 }
 
 .titulo {
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 10%;
-    /* padding-bottom: 5%; */
 }
 
 .texto {

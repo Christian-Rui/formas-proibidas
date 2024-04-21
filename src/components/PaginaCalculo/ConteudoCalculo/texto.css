@@ -1,0 +1,12 @@
+.textoForma{
+    background-color: #023618;
+    width: 55%;
+    padding: 5%;
+}
+
+.textoForma > p{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Crimson Text", serif;
+}

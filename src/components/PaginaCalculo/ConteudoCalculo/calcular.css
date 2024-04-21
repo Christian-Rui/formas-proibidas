@@ -1,0 +1,36 @@
+.calcular{
+    border: 3px #023618 solid;
+    border-radius: 10px;
+    padding-block: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputs {
+    width: 80%;
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.calcular > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:  0 auto;
+}
+
+h3 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.calcular > p {
+    font-size: 24px;
+}
