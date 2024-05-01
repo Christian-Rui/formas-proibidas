@@ -9,10 +9,11 @@
 
 .img__Forma {
     width: 50%;
+
 }
 
 .titulo__forma {
     -webkit-text-stroke-width: 0;
     color: #023618;
-    margin-top: 1%;
+    margin-top: 5%;
 }

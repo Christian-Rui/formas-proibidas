@@ -1,9 +1,10 @@
 import '../../../assets/css/texto.css'
 
 export default function Texto(props){
+    const linhas = props.textoForma.split('\n');
     return (
         <div className="textoForma">
-            <p>{props.textoForma}</p>
+            {linhas.map((linha) => <p>{linha}</p>)}
         </div>
     );
 }

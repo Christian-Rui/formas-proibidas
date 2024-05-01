@@ -125,7 +125,6 @@ export default function PaginaFormas() {
                 </AreaDeCalculo>
             </div>
 
-
         </>
     );
 }
