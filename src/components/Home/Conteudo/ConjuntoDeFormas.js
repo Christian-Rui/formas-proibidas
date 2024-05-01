@@ -1,19 +1,23 @@
-import Formas from './Formas.js';
-import circulo from '../../../../img/circulo.png';
-import cubo from '../../../../img/Cubo.svg';
-import retangulo from '../../../../img/Rectangulo.svg';
-import romboedro from '../../../../img/Romboedro.svg';
-import trapezio from '../../../../img/Trapezio.svg';
-import poligono from '../../../../img/Poligono.svg';
-import quadrado from '../../../../img/Quadrado.svg'
-import cuboide from '../../../../img/Cuboide.svg'
-import './conjuntoDeFormas.css';
+import '../../../assets/css/conjuntoDeFormas.css';
 
+import Formas from './Formas.js';
+
+import circulo from '../../../assets/img/circulo.png';
+import cubo from '../../../assets/img/Cubo.svg';
+import retangulo from '../../../assets/img/Rectangulo.svg';
+import romboedro from '../../../assets/img/Romboedro.svg';
+import trapezio from '../../../assets/img/Trapezio.svg';
+import poligono from '../../../assets/img/Poligono.svg';
+import quadrado from '../../../assets/img/Quadrado.svg'
+import cuboide from '../../../assets/img/Cuboide.svg'
+
+
+//usar um array.map para colocar todas as informações de uma única vez.
 export default function ConjuntoDeFormas() {
     return (
         <div className='conjuntoDeFormas'>
             <Formas site={'/pagina-calculo/circulo'} img={circulo} titulo={'Explorando o Mágico Círculo!'} texto={
-                'Bem-vindos à página do Círculo, onde a geometria se torna uma dança circular. Imagine-se girando em torno do centro, como um bailarino em um salão matemático'
+                'Bem-vindos à página do Círculo, onde a geometria se torna uma dança circular. Imagine-se girando em torno do centro, como um bailarino em um salão matemático'
             }
             ></Formas>
             <Formas site={'/pagina-calculo/cubo'} img={cubo} titulo={'Explorando o Enigmático Cubo!'} texto={

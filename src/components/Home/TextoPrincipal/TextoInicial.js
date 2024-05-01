@@ -1,4 +1,5 @@
-import './textoInicial.css'
+import '../../../assets/css/textoInicial.css'
+
 export default function TextoInicial() {
     return (
         <div className='textoInicial'>

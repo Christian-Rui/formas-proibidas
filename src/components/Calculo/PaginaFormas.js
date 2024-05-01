@@ -1,15 +1,13 @@
-import Header from '../PaginaPrincipal/Conteudo/Header/Header.js';
+import { useParams } from 'react-router-dom';
 
+import '../../assets/css/paginaFormas.css'
 
-import BannerForma from './ConteudoCalculo/BannerForma.js'
+import Header from '../Header.js';
+import BannerForma from './BannerCalculo/BannerForma.js'
 import AreaDeCalculo from './ConteudoCalculo/AreaDeCalculo.js';
 
-import circulo from '../../img/circulo.png'
-import cubo from '../../img/Cubo.svg'
-
-import './paginaFormas.css'
-
-import { useParams } from 'react-router-dom';
+import circulo from '../../assets/img/circulo.png'
+import cubo from '../../assets/img/Cubo.svg'
 
 
 var listaFormas = [{

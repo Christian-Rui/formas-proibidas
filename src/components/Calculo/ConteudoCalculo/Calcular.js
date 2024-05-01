@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './calcular.css'
+
+import '../../../assets/css/calcular.css'
 
 export default function Calcular({props}) {
     const [valores, setValores] = useState({}); // Estado para armazenar os valores

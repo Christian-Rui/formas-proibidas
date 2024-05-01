@@ -1,12 +1,9 @@
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import './assets/css/app.css';
 
-import logo from './logo.svg';
-import './App.css';
-
-import Home from './components/PaginaPrincipal/Home.js';
-import PaginaCalculo from './components/PaginaCalculo/PaginaFormas.js';
+import Home from './components/Home/Home.js';
+import PaginaCalculo from './components/Calculo/PaginaFormas.js';
 
 
 function App() {

@@ -1,4 +1,4 @@
-import './texto.css'
+import '../../../assets/css/texto.css'
 
 export default function Texto(props){
     return (

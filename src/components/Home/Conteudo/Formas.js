@@ -1,5 +1,7 @@
-import './formas.css'
 import { Link } from 'react-router-dom';
+
+import '../../../assets/css/formas.css';
+
 export default function Formas(props) {
     return (
         <Link className='formas' to={props.site}>

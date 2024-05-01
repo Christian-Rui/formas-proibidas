@@ -1,7 +1,8 @@
+import '../../../assets/css/bannerForma.css'
+
 import Figura from './Figura.js'
 import Texto from './Texto.js'
 
-import './bannerForma.css'
 
 export default function BannerForma(props) {
     return (
