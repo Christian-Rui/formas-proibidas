@@ -4,7 +4,7 @@ import Formas from './Formas.js';
 
 import circulo from '../../../assets/img/circulo.png';
 import cubo from '../../../assets/img/Cubo.svg';
-import retangulo from '../../../assets/img/Rectangulo.svg';
+import retangulo from '../../../assets/img/Retangulo.svg';
 import romboedro from '../../../assets/img/Romboedro.svg';
 import trapezio from '../../../assets/img/Trapezio.svg';
 import poligono from '../../../assets/img/Poligono.svg';
@@ -24,7 +24,7 @@ export default function ConjuntoDeFormas() {
                 'Bem-vindos à página do Cubo, onde a matemática ganha vida tridimensional. Preparem-se para mergulhar nas profundezas do espaço cúbico!'
             }
             ></Formas>
-            <Formas site={'/pagina-calculo/retengulo'} img={retangulo} titulo={'Desvendando o Retângulo!'} texto={
+            <Formas site={'/pagina-calculo/retangulo'} img={retangulo} titulo={'Desvendando o Retângulo!'} texto={
                 'Bem-vindos à página do Retângulo, onde a matemática se desdobra em quatro lados retos e paralelos. Imagine-se medindo os ângulos, traçando linhas e descobrindo a área desse polígono.'
             }
             ></Formas>

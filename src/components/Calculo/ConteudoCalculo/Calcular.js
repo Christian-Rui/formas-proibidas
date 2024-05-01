@@ -2,44 +2,78 @@ import React, { useState } from 'react';
 
 import '../../../assets/css/calcular.css'
 
-export default function Calcular({props}) {
-    const [valores, setValores] = useState({}); // Estado para armazenar os valores
-    
-    console.log(props.id)
-    // Função genérica para calcular a área
+export default function Calcular({ props }) {
+    const [valores, setValores] = useState({});
+    const [poligonoN, setPoligonoN] = useState();
+
     const calcularArea = () => {
+        let area;
         switch (props.id) {
             case 'circulo':
-                return (Math.PI * valores.raio ** 2);
+                area = (Math.PI * valores.raio ** 2);
+                break;
             case 'cubo':
-                return valores.base * valores.altura;
+                area = 6 * (valores.lado ** 2);
+                break;
+            case 'retangulo':
+                area = valores.comprimento * valores.largura;
+                break;
             case 'romboedro':
-                return valores.base * valores.altura * valores.comprimento;
-            // Adicione outras formas aqui (romboedro, cuboide, etc.)
+                area = 3 * ((valores.diagonalA * valores.diagonalB) / 2);
+                break;
+            case 'trapezio':
+                area = ((valores.base1 + valores.base2) * valores.altura) / 2;
+                break;
+            case 'poligono':
+                area = poligonoN * (valores.comprimento ** 2) / (4 * Math.tan(Math.PI / poligonoN));
+                break;
+            case 'quadrado':
+                area = 3 * valores.lado * valores.lado;
+                break;
+            case 'cuboide':
+                area = 3 * (valores.comprimento * valores.largura + valores.comprimento * valores.altura + valores.largura * valores.altura);
+                break;
             default:
-                return 0; // Forma não reconhecida
+                area = 0;
         }
+        return isNaN(area) ? 'Nenhum Resultado' : area.toFixed(2);
     };
 
-    // Renderiza os campos de entrada com base na forma selecionada
     const renderInputs = () => {
         const inputs = props.label.map((campo) => (
             <input className='inputs'
                 type='number'
                 placeholder={`Insira o valor de ${campo}`}
-                onChange={valor => setValores(prevState => ({ ...prevState, [campo]: parseFloat(valor.target.value)}))}
+                onChange={valor => setValores(prevState => ({ ...prevState, [campo]: parseFloat(valor.target.value) }))}
             />
         ));
 
         return inputs;
     };
+
+    const renderOptions = () => {
+        if (props.id === 'poligono') {
+            const options = props.tipo.map((nLado, i) => {
+                return <option value={i + 5}>{nLado}</option>
+            })
+
+            return (<select className='options' size={4} onChange={(event) => setPoligonoN(event.target.value)}>
+                <optgroup label="Escolha o tipo de Poligono">
+                    {options}
+                </optgroup >
+            </select >);
+        }
+        return;
+    }
+
     return (
         <div className='calcular containers'>
             <div>
-            <h3>Insira as informações a seguir</h3>
+                <h3>Insira as informações a seguir</h3>
+                {renderOptions()}
                 {renderInputs()}
             </div>
-                <p>Área: {calcularArea().toFixed(2) == 'NaN' ? 'Nenhum Resultado' : calcularArea().toFixed(2)}</p>
+            <p>Área: {calcularArea()}</p>
         </div>
     );
 }

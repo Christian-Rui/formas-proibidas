@@ -2,5 +2,26 @@
     background-image: url('../img/bgCalculo.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-block: 5%;
+    background-attachment: fixed;
+    padding-block: 1%;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block: 40px;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #023618;
+    color: white;
+}
+
+button:disabled{
+    background-color: gray;
+    border-color: gray;
 }

@@ -34,3 +34,13 @@ h3 {
 .calcular > p {
     font-size: 24px;
 }
+
+.options *{
+    font-size: 20px;
+}
+
+.options {
+    width: 80%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
