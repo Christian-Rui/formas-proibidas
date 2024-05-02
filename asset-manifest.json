@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/formas-proibidas/static/css/main.02ea4a6b.css",
-    "main.js": "/formas-proibidas/static/js/main.eba610f3.js",
+    "main.css": "/formas-proibidas/static/css/main.af000b91.css",
+    "main.js": "/formas-proibidas/static/js/main.bc816464.js",
     "static/js/453.bb87ca41.chunk.js": "/formas-proibidas/static/js/453.bb87ca41.chunk.js",
     "static/media/bgCalculo.png": "/formas-proibidas/static/media/bgCalculo.3c62df510961b7b600c1.png",
     "static/media/banner.png": "/formas-proibidas/static/media/banner.f34cb2c0af94e087f8c7.png",
@@ -14,12 +14,12 @@
     "static/media/Trapezio.svg": "/formas-proibidas/static/media/Trapezio.98cb08ddf7530901b6e02237c3719c40.svg",
     "static/media/Quadrado.svg": "/formas-proibidas/static/media/Quadrado.172ba4decddaf3568320aa0fe4ae4b6c.svg",
     "static/media/Retangulo.svg": "/formas-proibidas/static/media/Retangulo.6292d64ffc754afb5a7830bb29d8013a.svg",
-    "main.02ea4a6b.css.map": "/formas-proibidas/static/css/main.02ea4a6b.css.map",
-    "main.eba610f3.js.map": "/formas-proibidas/static/js/main.eba610f3.js.map",
+    "main.af000b91.css.map": "/formas-proibidas/static/css/main.af000b91.css.map",
+    "main.bc816464.js.map": "/formas-proibidas/static/js/main.bc816464.js.map",
     "453.bb87ca41.chunk.js.map": "/formas-proibidas/static/js/453.bb87ca41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02ea4a6b.css",
-    "static/js/main.eba610f3.js"
+    "static/css/main.af000b91.css",
+    "static/js/main.bc816464.js"
   ]
 }
