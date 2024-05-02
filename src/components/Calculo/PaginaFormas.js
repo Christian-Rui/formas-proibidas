@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import '../../assets/css/paginaFormas.css'
 
 import Header from '../Header.js';
+import Footer from '../Footer.js'
 import BannerForma from './BannerCalculo/BannerForma.js'
 import AreaDeCalculo from './ConteudoCalculo/AreaDeCalculo.js';
 
@@ -81,9 +82,7 @@ var listaFormas = [{
     texto: 'O cubóide é uma figura geométrica sólida que consiste em seis faces retangulares, cada uma conectada a quatro outras, formando um todo coeso. Cada aresta do cubóide é conhecida como lado, e os lados opostos têm o mesmo comprimento. O cubóide é uma forma fechada, possui arestas e vértices, e é caracterizado por sua simetria tridimensional 12.\n\nVisualize um tijolo perfeito, um prédio que se ergue sem esforço. O cubóide é essa estabilidade, essa união de seis faces retangulares. Ele nos envolve, nos abraça com sua estrutura robusta.',
     info: 'O cubóide é uma figura geométrica que nos impressiona com sua estrutura e estabilidade. Para calcular seu volume, utilizamos uma fórmula simples: \n\nVolume do Cubóide (V) = comprimento (l) × largura (w) × altura (h)\n\nAqui estão os detalhes: \n\nComprimento (l), Largura (w) e Altura (h) são as distâncias entre os lados opostos do cubóide.\n\nImagine que você está dançando em torno do centro do cubóide, como um bailarino matemático. O comprimento, a largura e a altura são suas ligações com as faces, e o produto delas é a base para calcular o volume. Multiplicamos esse produto pelo valor de 1 para obter o volume total.\n\nSe você tiver a diagonal espacial (que é a raiz quadrada da soma dos quadrados do comprimento, largura e altura), basta aplicar o teorema de Pitágoras para encontrar o comprimento, a largura e a altura e aplicar a fórmula.',
     label: ['comprimento', 'largura', 'altura']
-}
-
-];
+}];
 
 export default function PaginaFormas() {
     const { forma } = useParams();
@@ -123,8 +122,9 @@ export default function PaginaFormas() {
                     infoCalc={objetoForma.info}
                     objeto={objetoForma}>
                 </AreaDeCalculo>
-            </div>
 
+                <Footer></Footer>
+            </div>
         </>
     );
 }
